@@ -1,0 +1,19 @@
+#!/bin/bash
+PROJECT_PATH=~/Twitter-Sentiment-Analysis-master/\
+sentence-level-analysis/dependencyParser
+JAR_PATH=$PROJECT_PATH/lib
+BIN_PATH=$PROJECT_PATH/bin
+SRC_PATH=$PROJECT_PATH/src
+
+# First remove the sources.list file if it exists \
+#and then create the sources file of the project  
+rm -f $SRC_PATH/sources.list
+find $SRC_PATH -name *.java > $SRC_PATH/sources.list  
+  
+rm -rf $BIN_PATH
+mkdir $BIN_PATH
+
+# Compile the project
+javac -d $BIN_PATH \
+-classpath $JAR_PATH/ejml-0.23.jar:$JAR_PATH/stanford-corenlp-3.3.1.jar:$JAR_PATH/stanford-corenlp-3.3.1-models.jar \
+$SRC_PATH/dependencyParser.java

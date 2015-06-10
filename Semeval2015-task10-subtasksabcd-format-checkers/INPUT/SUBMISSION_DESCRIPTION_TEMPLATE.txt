@@ -1,0 +1,29 @@
+1. Team ID
+
+2. Team affiliation
+
+3. Contact information
+
+4. Submission, i.e., ZIP file name
+
+5. System specs
+
+- 5.1 Core approach
+
+- 5.2 Supervised or unsupervised
+
+- 5.3 Critical features used
+
+- 5.4 Critical tools used
+
+- 5.5 Significant data pre/post-processing
+
+- 5.6 Other data used (outside of the provided)
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+
+6 References (if applicable)

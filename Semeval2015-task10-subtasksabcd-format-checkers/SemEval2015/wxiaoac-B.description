@@ -1,0 +1,51 @@
+1. Team ID
+wxiaoac
+
+2. Team affiliation
+Hong Kong University of Science and Technology
+
+3. Contact information
+Wenhan Xiao, wxiaoac@connect.ust.hk
+Lei Chen, leichen@cse.ust.hk
+
+4. Submission, i.e., ZIP file name
+wxiaoac.zip
+
+5. System specs
+
+- 5.1 Core approach
+Supervised text classification using Support Vector Machine
+
+- 5.2 Supervised or unsupervised
+Supervised
+
+- 5.3 Critical features used
+Syntax feature
+Lexicon feature
+Context feature
+Word n-gram
+Character n-gram
+
+- 5.4 Critical tools used
+CMU ARK Twitter Part-of-Speech Tagger
+Stanford CoreNLP
+
+- 5.5 Significant data pre/post-processing
+Tokenization
+POS tagging
+Dependency representation extraction
+
+- 5.6 Other data used (outside of the provided)
+Human-coded 4242 texts from six different social web domains(only 4242 texts from Twitter were used as additional trainset), provided by SentiStrength
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+8194
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+No
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+No
+
+6 References (if applicable)
+Saif Mohammad, Svetlana Kiritchenko, and Xiaodan Zhu. 2013. NRC-Canada: Building the state-of-the- art in sentiment analysis of tweets. In Proceedings of the International Workshop on Semantic Evalua- tion, SemEval ’13, Atlanta, Georgia, USA, June.
